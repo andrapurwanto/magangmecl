@@ -1,0 +1,332 @@
+body{
+    font-family: 'Open Sans' sans-serif;
+    background: #323232;
+    padding: 0;
+    margin:0;
+    color: #14ffec;
+    font-size: 15px;
+}
+
+.container{
+    width: 70%;
+    height: auto;
+    background: #212121;
+    margin:auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Chakra Petch';
+    padding: 10px 0 10px 10px;
+    color: #14ffec;
+}
+
+nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0d7377;
+    border: 1px solid #323232;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a{
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    opacity:0.5;
+    background-color: #323232;
+}
+
+article {
+    width: 98.8%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 5px 5px 5px;
+    border-top: 1px solid #0d7377;
+    clear: both;
+}
+
+article p {
+    padding: 10px 5px 5px 5px;
+    line-height: 1.5;  
+}
+article .konten {
+    width: 98%;
+    height: auto;
+    margin: 10px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #0d7377;
+    float: center;
+    display: flex;
+}
+
+article .konten img {
+    width: 400px;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #14ffec;
+    border-radius: 5px;
+
+}
+article .konten:hover {
+    opacity:0.9;
+}
+
+article .konten .judul{
+    margin: 10px 5px 5px 5px;
+}
+
+article .konten .judul a {
+    text-decoration: underline;
+    font-size:30px;
+    color:#14ffec;
+}
+
+p{
+    margin-left: 5px;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+
+article .konten a:hover {
+    opacity:0.9;
+}
+
+article .isi {
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid #0d7377;
+    float: left;
+}
+
+article .isi .atasan {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+article .isi .judul {
+    font-size: xx-large;
+    text-decoration: underline;
+}
+article .isi p {
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+
+}
+article .isi .gambar img {
+    float: left;
+    width: 600px;
+    height: auto;
+    margin: 5px 10px 10px 5px;
+    border: 1px solid #14ffec;
+    border-radius: 5px;
+}
+
+article .isi .gambar2 img {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 5px 10px 10px 5px;
+    border: 1px solid #14ffec;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 10px 10px 10px 20px;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 10px 10px 10px 50px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article .isi ul{
+    color: white;
+    line-height: 1.5;
+}
+
+article .isi .daleman img{
+    width: 50px;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid #14ffec;
+    border-radius: 5px;
+}
+
+article .isi table{
+    margin: 5px 10px 5px 30px;
+    color: white;
+    table-layout: auto;
+}
+
+.container label{
+    margin: 10px 15px 10px 15px;
+    color: white;
+    padding: 30px 0px;
+    font-size: 20px;
+}
+
+.container input{
+    width: calc(80% - 20px);
+    padding: 8px 10px;
+    margin: 0px 0px 15px 30px;
+    border: 2px solid #0d7377;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: "Open Sans" sans-serif;
+}
+
+.container select{
+    width: 80%;
+    padding: 8px 10px;
+    margin: 0px 0px 15px 30px;
+    border: 2px solid #0d7377;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: "Open Sans" sans-serif;
+}
+
+.container textarea{
+    width: calc(80% - 20px);
+    height: 150px;
+    padding: 8px 10px;
+    margin: 0px 0px 15px 30px;
+    border: 2px solid #0d7377;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: "Open Sans" sans-serif;
+}
+
+.kritik button{
+    float: right;
+    margin: 0px 50px 0px 0px;
+    padding: 10px 20px;
+    border: 2px solid #0d7377;
+    font-size: 20px;
+    font-family: "Open Sans" sans-serif;
+    color: white;
+    background-color: #323232;
+}
+
+.container button:hover{
+    background-color: #14ffec;
+    opacity: 0.8;
+}
+
+footer {
+    clear: both;
+    width: 98.8%;
+    height: auto;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border-bottom: 1px solid #0d7377;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+}
+@media screen and (max-width:1080px) {
+
+    .container, article, footer {
+        float: none;
+        width: 98%;
+   }
+   article .konten {
+    float: left;
+    width: 48%;
+   }
+
+   article .konten img {
+    height: auto;
+   }
+}
+
+@media screen and (max-width:780px){
+    /* For tablets: */
+    .container, article, footer, article .konten {
+        float: none;
+        width: 98%;
+   }
+
+   article .konten img {
+    height: auto;
+   }
+
+   article .isi .gambar img{
+       height: auto;
+   }
+ 
+}
+
+.isi button{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 50px;
+    border: none;
+    border-left: 2px solid #0d7377;
+    border-right: 2px solid #0d7377;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Open Sans" sans-serif;
+    color: white;
+    background-color: #212121;
+}
+
+.dropdown {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #212121;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #14ffec;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
