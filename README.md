@@ -1,0 +1,2 @@
+# magangmecl
+tugas magang mecl
